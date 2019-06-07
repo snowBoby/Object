@@ -4,7 +4,7 @@
 
 Object每个实例都有以下几种方法：
   constructer、hasOwnProperty()、isPrototypeOf、propertyIsEnumerable()、toString()、toLocateString()、valueOf()
-  原型.isPrototype(obj)：用于检查传入的对象是否是当前对象的原型
+  原型.isPrototype(obj)：用于检查传入的对象是否是当前对象的原型,同intanceof一个效果，只要在原型链上出现过的原型，都可以说是该原型链所派生的实例的原型。
   propertyIsEnumerable(propertyName)：用于检查给定的属性是否能够用for-in语句来枚举。
 
 Object构造函数的方法：
