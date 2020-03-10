@@ -1,10 +1,10 @@
 # Object
-对象相关操作
+Object 是最常见的引用类型，**原生的引用类型都继承自 Object 类型**, 可以通过点表示法和方括号表示法来访问对象,前者书写更加简单，后者可以支持一些特殊语法和表达式，但是书写比较复杂（同时由于要解析表达式，性能也稍慢）
 
 ### Object每个实例都有以下几种方法：
-  constructer、hasOwnProperty()、isPrototypeOf、propertyIsEnumerable()、toString()、toLocateString()、valueOf()
+  constructer、hasOwnProperty()、isPrototypeOf()、propertyIsEnumerable(属性)、toString()、toLocateString()、valueOf()
 
-*   原型.isPrototype(obj)：用于检查传入的对象是否是当前对象的原型,同intanceof一个效果，只要在原型链上出现过的原型，都可以说是该原型链所派生的实例的原型。
+*   原型.isPrototypeOf(obj)：用于检查传入的对象是否是当前对象的原型,同intanceof一个效果，只要在原型链上出现过的原型，都可以说是该原型链所派生的实例的原型。
 *   propertyIsEnumerable(propertyName)：用于检查给定的属性是否能够用for-in语句来枚举。
 
 ### Object构造函数的方法：
